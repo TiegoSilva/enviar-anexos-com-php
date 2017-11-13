@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Tiego Silva">
+	<title>Formulário com multiplos anexos</title>
+</head>
+<body>
+
+	<!-- Formulário que envia e-mails com multiplos anexos  -->
+	<form method="post" enctype="multipart/form-data" action="enviarEmail.php" name="formEnviarAnexos">
+		<input type="text" name="nome" placeholder="Nome:"> <br> <br>
+		<textarea name="mensagem"></textarea> <br> <br>
+		<input type="file" name="file[]" multiple="multiple"> <br> <br>
+		<input type="submit" name="btnEnviarEmail" value="Enviar E-mail">
+	</form>
+
+</body>
+</html>
