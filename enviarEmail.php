@@ -11,7 +11,7 @@
     $limitador = "_=======". date('YmdHms'). time() . "=======_";
     $headers  = "MIME-Version: 1.0\n";
     $headers .= "Content-type: multipart/mixed; boundary=\"$limitador\"\n"; 
-    $headers .= "From: macassistenciaprime\n";
+    $headers .= "From: mseuemail\n";
     $cid = date('YmdHms').'.'.time();
 
 
